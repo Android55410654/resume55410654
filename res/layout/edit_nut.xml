@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txt16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txt17"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="35dp"
+        android:text="Grade" />
+
+    <TextView
+        android:id="@+id/txt15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txt16"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="38dp"
+        android:text="Faculty" />
+
+    <EditText
+        android:id="@+id/etxt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt15"
+        android:layout_alignBottom="@+id/txt15"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/txt15"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/etxt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt17"
+        android:layout_alignBottom="@+id/txt17"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/txt13"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/etxt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt11"
+        android:layout_alignBottom="@+id/txt11"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/txt11"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/etxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt12"
+        android:layout_alignBottom="@+id/txt12"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/txt12"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etxt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt13"
+        android:layout_alignBottom="@+id/txt13"
+        android:layout_alignLeft="@+id/etxt7"
+        android:layout_alignParentRight="true"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/etxt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt14"
+        android:layout_alignBottom="@+id/txt14"
+        android:layout_alignLeft="@+id/etxt6"
+        android:layout_alignParentRight="true"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/etxt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt16"
+        android:layout_alignBottom="@+id/txt16"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/txt16"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/txt17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="67dp"
+        android:text="University" />
+
+    <TextView
+        android:id="@+id/txt11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etxt2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="14dp"
+        android:text="Age" />
+
+    <TextView
+        android:id="@+id/txt13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etxt4"
+        android:layout_marginBottom="19dp"
+        android:text="Nlickname" />
+
+    <TextView
+        android:id="@+id/txt12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etxt3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/txt16"
+        android:layout_marginBottom="16dp"
+        android:text="Sex" />
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="49dp"
+        android:text="Save" />
+
+    <TextView
+        android:id="@+id/txt14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="Major" />
+
+</RelativeLayout>

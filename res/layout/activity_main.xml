@@ -20,7 +20,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/txt11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/linearLayout3"
@@ -35,7 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_below="@id/textView1"
+        android:layout_below="@id/txt11"
         android:layout_marginRight="10dp"
         android:background="#FFFF99" >
 
@@ -64,7 +64,7 @@
         android:layout_marginLeft="5dp" >
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/txt12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="17dp"
@@ -83,7 +83,7 @@
         android:background="#cccccc" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txt13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -94,25 +94,25 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/txt14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView3"
-        android:layout_alignBottom="@+id/textView3"
-        android:layout_alignRight="@+id/textView1"
+        android:layout_alignBaseline="@+id/txt13"
+        android:layout_alignBottom="@+id/txt13"
+        android:layout_alignRight="@+id/txt11"
         android:text="21" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/txt15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/view3"
-        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignLeft="@+id/txt13"
         android:text="Sex"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/txt16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/view3"
@@ -120,11 +120,11 @@
         android:text="Female" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/txt17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/View01"
-        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignLeft="@+id/txt15"
         android:text="Nickname"
         android:textStyle="bold" />
 
@@ -133,7 +133,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/View01"
-        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignLeft="@+id/txt16"
         android:text="Donut" />
 
     <View
@@ -150,7 +150,7 @@
         android:layout_width="wrap_content"
         android:layout_height="1dp"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView3"
+        android:layout_below="@+id/txt13"
         android:background="#cccccc" />
 
     <View
@@ -167,7 +167,7 @@
         android:layout_width="wrap_content"
         android:layout_height="1dp"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView5"
+        android:layout_below="@+id/txt15"
         android:layout_marginTop="48dp"
         android:background="#cccccc" />
 
@@ -176,7 +176,7 @@
         android:layout_width="wrap_content"
         android:layout_height="1dp"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView7"
+        android:layout_below="@+id/txt17"
         android:layout_marginTop="50dp"
         android:background="#cccccc" />
 
@@ -203,7 +203,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/View02"
-        android:layout_alignRight="@+id/textView6"
+        android:layout_alignRight="@+id/txt16"
         android:text="Computer Business" />
 
     <TextView
@@ -211,7 +211,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/View03"
-        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignLeft="@+id/txt17"
         android:text="Faculty"
         android:textStyle="bold" />
 
@@ -264,7 +264,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/View03"
-        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignLeft="@+id/txt17"
         android:text="Major"
         android:textStyle="bold" />
 
